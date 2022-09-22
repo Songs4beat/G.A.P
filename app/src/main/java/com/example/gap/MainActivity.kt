@@ -8,6 +8,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         //우성 commit 완료
-        //건우 commit 완료
+        //현지 commit 완료
+        //dd
+        //건우완료^^
     }
 }
