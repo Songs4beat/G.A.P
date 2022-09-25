@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GAP">
         <activity
+            android:name=".wooSeong_Home"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
