@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragement"
+        android:title="홈"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/storeFragement"
+        android:title="스토어"
+        android:icon="@drawable/ic_store"/>
+
+    <item
+        android:id="@+id/myPageFragement"
+        android:title="마이페이지"
+        android:icon="@drawable/ic_mypage"/>
+</menu>
