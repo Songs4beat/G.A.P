@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_home"
+        android:enabled="true"
+        android:icon="@drawable/home_ws"
+        android:title="홈"/>
+
+    <item
+        android:id="@+id/tab_file"
+        android:enabled="true"
+        android:icon="@drawable/file_ws"
+        android:title="둘러보기"/>
+
+    <item
+        android:id="@+id/tab_store"
+        android:enabled="true"
+        android:icon="@drawable/shop_ws"
+        android:title="스토어"/>
+
+    <item
+        android:id="@+id/tab_hat"
+        android:enabled="true"
+        android:icon="@drawable/hat_ws"
+        android:title="이사/시공/수리"/>
+
+    <item
+        android:id="@+id/tab_mypage"
+        android:enabled="true"
+        android:icon="@drawable/mypage_ws"
+        android:title="마이페이지"/>
+</menu>

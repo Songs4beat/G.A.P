@@ -2,12 +2,13 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ws_home"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".wooSeong_Home">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tv_LShow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
@@ -113,11 +114,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="200dp"
+        android:focusableInTouchMode="false"
         android:freezesText="true"
         android:inputType="none|textMultiLine"
         android:text="이메일로 로그인"
         android:textSize="15dp"
-        android:focusableInTouchMode="false"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -130,11 +131,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
+        android:focusableInTouchMode="false"
         android:freezesText="false"
         android:inputType="none|textMultiLine"
         android:text="이메일로 가입"
         android:textSize="15dp"
-        android:focusableInTouchMode="false"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView6"
         app:layout_constraintStart_toEndOf="@+id/textView6"
@@ -162,7 +163,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
